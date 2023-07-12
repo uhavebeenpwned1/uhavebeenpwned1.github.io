@@ -158,7 +158,7 @@ void main(){
   //White core
   col += 10.0*vec3(smoothstep(0.003, 0.001, dist));
   //Blue glow
-  col += glow * vec3(0.1,0.4,1.0);
+  col += glow * vec3(0.0,1.0,0.0);
         
 	//Tone mapping
 	col = 1.0 - exp(-col);
