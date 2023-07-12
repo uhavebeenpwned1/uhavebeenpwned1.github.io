@@ -15,12 +15,4 @@ body:before {
 }
 
 
-@charset "utf-8";
 
-
-*   {
-	margin: 0;
-	padding: 0;
-	box-sizzing: border-box;
-	overflow: hidden;
-	}
