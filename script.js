@@ -1,8 +1,8 @@
 // JavaScript Document
 var canvas = document.getElementById("canvas");
 
-canvas.width = 0;
-canvas.height = 0;
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
 // Initialize the GL context
 var gl = canvas.getContext('webgl');
