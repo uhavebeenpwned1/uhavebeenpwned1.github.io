@@ -148,7 +148,7 @@ void main(){
 
 	//White core
   col += 10.0*vec3(smoothstep(0.003, 0.001, dist));
-  //Pink glow
+  //First glow
   col += glow * vec3(0.28,0,1.0);
   
   //Get second segment
@@ -157,8 +157,8 @@ void main(){
   
   //White core
   col += 10.0*vec3(smoothstep(0.003, 0.001, dist));
-  //Blue glow
-  col += glow * vec3(1,0,0);
+  //Second glow
+  col += glow * vec3(1,0.05,0.3);
         
 	//Tone mapping
 	col = 1.0 - exp(-col);
